@@ -1,10 +1,6 @@
 # Teste_Node_MongoDB
 > Teste de API com Node.js e MongoDB
 
-[![NPM Version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-[![Downloads Stats][npm-downloads]][npm-url]
-
 O projeto é um teste que consiste em implementar um banco de dados que armazene os dados de acesso dos usuários de um suposto sistema e uma API para interação com esses dados.
 A API foi desenvolvida utilizando Node.js, enquanto o banco de dados foi criado utilizando MongoDB, mais especificamente o ODM (Object Document Mapper) Mongoose.
 
@@ -15,8 +11,6 @@ Após ter clonado o projeto, basta executar o seguinte código no terminal para 
 ```sh
 npm install 
 ```
-
-## Exemplo de utilização
 
 <h2>Iniciando a aplicação</h2>
 
@@ -76,4 +70,4 @@ Ao clicar em __Send__, retornará a mensagem __Usuário deletado com sucesso__ r
 ## Meta
 
 Breno Estrella - [@breno_e](https://twitter.com/breno_e) - brenogbestrella@gmail.com
-[https://github.com/brenogbestrella/github-link](https://github.com/brenogbestrella/)
+[https://github.com/brenogbestrella/](https://github.com/brenogbestrella/)
