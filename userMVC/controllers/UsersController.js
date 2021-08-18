@@ -39,7 +39,7 @@ const controller = {
     destroy: async (req, res) => {
       const destroyedUser = await UsersService.destroyUser(req.userId);
   
-      return res.json(destroyedUser);
+      return res.json("Usuário deletado com sucesso.");
     },
   };
   

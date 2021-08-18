@@ -1,5 +1,8 @@
 const User = require("../models/UserModel");
 
+// O ideal seria não retornar a senha propriamente dita, e sim o hash da senha após sua encriptação. 
+// Para efeitos do teste, seguirei o solicitado no enunciado.
+
 const UsersService = {
   createUser: async (name, userName, password) => {
     const newUser = await User.create({
